@@ -11,7 +11,9 @@
 </head>
 <body>
  <div class="container">
-     <div class="weather-app">
+     <div class="weather-app-wrapper">
+        <div class="weather-app">
+            <div class="overview">
   <h1>
       New York
   </h1>
@@ -19,10 +21,17 @@
       <li>Friday 05:00</li>
       <li>Clear</li>
   </ul>
+            </div>
   <div class="row">
       <div class="col-6">
-          <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Partly Cloudy" />
-        12°C | °F
+          <div class="clearfix weather-temperature">
+          <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" 
+          alt="Partly Cloudy"
+          class="float-left" />
+          <div class="float-left">
+            <strong>12</strong><span class="units">°C | <a href="#">°F</a></span>
+          </div>
+          </div>
       </div>
       <div class="col-6">
           <ul>
@@ -32,9 +41,10 @@
           </ul>
       </div>
   </div>
-  <small>
-      <a href="https://github.com/Robsness23/weather-app" target="_blank">Open-source code</a> by Robyn Smith
-  </small>
+</div>
+<small>
+    <a href="https://github.com/Robsness23/weather-app" target="_blank">Open-source code</a> by Robyn Smith
+</small>
 </div>
  </div>
 <script src="src/app.js"></script>
