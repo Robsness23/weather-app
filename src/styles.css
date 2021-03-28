@@ -1,9 +1,14 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  color: #107972;
+  font-size: 40px;
 }
 
 h1 {
-  color: #46807c;
+  color: #279188;
   font-size: 26px;
   font-weight: 100;
   line-height: 28px;
@@ -14,6 +19,7 @@ h1 {
 ul {
   margin: 0;
   padding: 0;
+  margin-top: 5px;
 }
 
 li {
@@ -24,6 +30,7 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+  margin-top: 5px;
 }
 
 li:first-letter {
@@ -102,8 +109,8 @@ li:first-letter {
 
 .weather-forecast-temperature {
   text-align: center;
-  color: rgb(110, 109, 109);
-  font-size: 13px;
+  color: rgb(117, 117, 117);
+  font-size: 14px;
   font-weight: 400;
   height: auto;
   line-height: 15px;
