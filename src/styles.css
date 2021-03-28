@@ -86,6 +86,11 @@ li:first-letter {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
+.units a {
+  text-decoration: none;
+}
+
 .weather-forecast {
   margin-top: 10px;
 }
